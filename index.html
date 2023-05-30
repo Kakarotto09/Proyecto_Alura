@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <h1 class="titulo">PROYECTO ENCRIPTADOR</h1>
+    <header>
+        <img class="logo" src="./imagenes/Frame 6.png" alt="logo de alura">
+    </header>
+
+    <main>
+        <section> 
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h2 class="informacion">Solo letras minusculas y sin acentos</h2>
+            </div>
+            <div class="botones"> 
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+       
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto()">Copiar</button>
+            </div> 
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p class="copyright">&copy Copyright proyecto Encriptador Alura - 2023</p>
+        <h3 class="autor">Realizado por Orlando Ocampo</h3>
+    </footer>
+   
+</body>
+</html>
